@@ -6,64 +6,106 @@
     <meta name="description" content="Web Development Services " />
     <meta name="keywords" content="Web Development" />
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/stylesheet.css" />
     <title>Abel Mengstu's Portfolio</title>
   </head>
-  <img
-    class="phone"
-    src="images/seattle-bridge-on-lake-union.JPG"
-    alt="Photo of lake union bridge in Seattle"
-  />
-
   <body>
     <header>
       <h1>Creatives in motion!</h1>
       <nav class="topnav" id="myTopnav">
-        <a href="index.html" class="active">HOME</a> |
-        <a href="services-page.html" target="_blank">SERVICES</a> |
-        <a href="projects.html">PROJECTS</a> |
-        <a href="blog-index.html">BLOG</a> |
-        <a href="second-page.html" target="_blank">ABOUT US</a> |
+        <a href="index.html" class="active">HOME</a>
+        <a href="services-page.html" target="_blank">SERVICES</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="blog-index.html">BLOG</a>
+        <a href="second-page.html" target="_blank">ABOUT US</a>
         <a href="https://www.w3.org/standards/" target="_blank">STANDARDS</a>
-        |
+
         <a href="contact.html" target="_blank">CONTACT ABEL</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+          >&#9776;</a
       </nav>
     </header>
-
     <div class="wrapper">
-      <h2 class="subheader">Web Development Services</h2>
+    <img
+      src="images/seattle-bridge-on-lake-union.JPG"
+      alt="Photo of lake union bridge in Seattle"
+    />
 
-      <h3 class="subheader">Projects</h3>
-      <aside>
-        <ol>
-          <li>
-            <a
-              href="file:///C:/Users/abeld/Desktop/html100/semantic-elements/index.html"
-              target="_blank"
-              >Telework for development</a
-            >
-          </li>
-          <li>Accesability and web development</li>
-        </ol>
-      </aside>
-
+      <section>
+        <h2 class="subheader">Web Development Services</h2>
+        <article>
+          <h3 class="subheader">Projects</h3>
+          <aside>
+            <ul>
+              <li>
+                <a
+                  href="home.html"
+                  target="_blank"
+                  >Telework for development</a
+                >
+              </li>
+              <li>Accesability and web development</li>
+              <li>Remodeling website desigen</li>
+              <li>More than just a website creator</li>
+            </ul>
+          </aside>
+        </article>
+      </section>
       <footer>
         <p>
-          &copy; 2022 by Abel Mengstu, All Rights Reserved ~
-          <a href="https://validator.w3.org/" target="_blank"
-            ><img
-              style="border: 3px; width: 88px; height: 31px;"
-              src="images/html5_validator_badges.jpg"
-              alt="Valid HTML!"
-          /></a>
-          <a href="https://jigsaw.w3.org/css-validator/" target="_blank">
-            <img
-              style="border: 3px; width: 88px; height: 31px;"
-              src="images/css_validator_badges-vcss-blue.jpg"
-              alt="Valid CSS!"
-            />
-          </a>
-        </p>
+           <footer>
+             <p>
+               <small> <a href="index.html">HOME</a></small>
+             </p>
+             <p>
+               <small
+                 >&copy; 2022 by Abel Mengstu
+                  All Rights Reserved
+                 | ,<a href="disclaimer.html"> Disclaimer / Privacy Notice</a> ,<a
+                   id="html-checker"
+                   href="#"
+                   ><img
+                   style="border: 3px; width: 88px; height: 31px;"
+                   src="images/html5_validator_badges.jpg"
+                   alt="Valid HTML!"
+               /></a>
+                 | <a id="css-checker" href="#"><img
+                 style="border: 3px; width: 88px; height: 31px;"
+                 src="images/css_validator_badges-vcss-blue.jpg"
+                 alt="Valid CSS!"/>
+             </a>~
+
+               </small>
+             </p>
+           </footer>
+         </p>
       </footer>
     </div>
+    <script>
+     //https://tinyurl.com/dynamic-html-checker
+     document
+       .getElementById("html-checker")
+       .setAttribute(
+         "href",
+         "https://validator.w3.org/nu/?doc=" + location.href
+       );
+
+     document
+       .getElementById("css-checker")
+       .setAttribute(
+         "href",
+         "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
+       );
+
+     //manages mobile nav
+     function myFunction() {
+       var x = document.getElementById("myTopnav");
+       if (x.className === "topnav") {
+         x.className += " responsive";
+       } else {
+         x.className = "topnav";
+       }
+     }
+    </script>
   </body>
 </html>
