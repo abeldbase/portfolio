@@ -1,5 +1,26 @@
 /* Global rules */
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,400;0,800;1,400&display=swap');
+
+
+header > h1 {
+    font-family: 'Neuton', serif ;
+    font-weight: 700;
+    font-size: 45px;
+}
+.container{
+    border:rgb(86, 7, 9) solid ;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: auto;
+    
+  
+}
+
+video{
+    width: 370px;
+  }
 .topnav {
     margin: auto;
     background-color: rgb(86, 7, 9);
@@ -23,6 +44,27 @@
 
 .topnav .icon {
     display: none;
+}
+.connect-me{
+    font-family: 'Neuton', serif;
+    color: darkcyan;
+    line-height: 1.6rem;
+    font-weight: 700;
+    font-size: 30px;
+}
+.h2{
+    font-family: 'Neuton', serif;
+    color: darkcyan;
+    line-height: 1.5rem;
+    font-weight: 900;
+    font-size:40px; 
+}
+.h3{
+    font-family: 'Neuton', serif;
+    color: rgb(1, 10, 10);
+    line-height: 1.5rem;
+    font-weight: 900;
+    font-size:20px;  
 }
 
 /* Responsive rules - apply when screen width is less than 1200px */
@@ -79,8 +121,8 @@
 
 html {
     background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 0.95em;
+    font-family:  'Neuton', sans-serif;
+    font-size: 1.6em;
     line-height: 1.5em;
 }
 
