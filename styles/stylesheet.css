@@ -8,14 +8,34 @@ header > h1 {
     font-weight: 700;
     font-size: 45px;
 }
+
 .container{
     border:rgb(86, 7, 9) solid ;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
     height: auto;
-    
-  
+
+}
+.container :hover {
+    border:sandybrown solid 3px ;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: 1s;
+    transition-property:all;
+}
+.h2 :hover{
+    font-size: x-large;
+    color: rgb(243, 239, 12);
+    background-color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: 2s;
+    transition-property:all;
+   
+}
+
+nav a:nth-child(even){
+    color: rgb(237, 226, 20);
 }
 
 video{
@@ -40,11 +60,14 @@ video{
 
 .topnav a.hover, .active {
     background-color: darkcyan;
+   
+    
 }
 
 .topnav .icon {
     display: none;
 }
+
 .connect-me{
     font-family: 'Neuton', serif;
     color: darkcyan;
@@ -164,6 +187,7 @@ a:hover {
     background-color: darkcyan;
     text-decoration: none;
 }
+
 
 /*
 iframe {
