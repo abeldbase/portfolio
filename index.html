@@ -6,6 +6,10 @@
     <meta name="description" content="Web Development Services " />
     <meta name="keywords" content="Web Development" />
     <meta charset="utf-8" />
+    <script
+      src="https://kit.fontawesome.com/0c11dfccfd.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles/stylesheet.css" />
     <title>Abel Mengstu's Portfolio</title>
   </head>
@@ -14,7 +18,7 @@
       <h1>Creatives In Motion!</h1>
       <nav class="topnav" id="myTopnav">
         <a href="index.html" class="active">HOME</a>
-        <a href="services-page.html" target="_blank">SERVICES</a>
+        <a href="services.html" target="_blank">SERVICES</a>
         <a href="projects.html">PROJECTS</a>
         <a href="blog-index.html">BLOG</a>
         <a href="second-page.html" target="_blank">ABOUT US</a>
@@ -23,24 +27,25 @@
         <a href="contact.html" target="_blank">CONTACT ABEL</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"
           >&#9776;</a
+        >
       </nav>
     </header>
     <div class="wrapper">
-       <img
-         class="desktop"
-         src="images/desktop.jpg"
-         alt="Photo of Abel in summer time"
-       />
-       <img
-         class="tablet"
-         src="images/tablet.jpg"
-         alt="Photo of Seattle Space Needle from water"
-       />
-       <img
-         class="phone"
-         src="images/phone.jpg"
-         alt="Photo of Abel at Walgreens store"
-       />
+      <img
+        class="desktop"
+        src="images/desktop.jpg"
+        alt="Photo of Abel in summer time"
+      />
+      <img
+        class="tablet"
+        src="images/tablet.jpg"
+        alt="Photo of Seattle Space Needle from water"
+      />
+      <img
+        class="phone"
+        src="images/phone.jpg"
+        alt="Photo of Abel at Walgreens store"
+      />
       <section>
         <h2 class="first subheader">A little about me!</h2>
         <article>
@@ -108,61 +113,61 @@
           </p>
         </article>
       </section>
+
       <footer>
         <p>
-           <footer>
-             <p>
-               <small> <a href="index.html">HOME</a></small>
-             </p>
-             <p>
-               <small
-                 >&copy; 2022 by Abel Mengstu
-                  All Rights Reserved
-                 | ,<a href="disclaimer.html"> Disclaimer / Privacy Notice</a> ,<a
-                   id="html-checker"
-                   href="#"
-                   ><img
-                   style="border: 3px; width: 88px; height: 31px;"
-                   src="images/html5_validator_badges.jpg"
-                   alt="Valid HTML!"
-               /></a>
-                 | <a id="css-checker" href="#"><img
-                 style="border: 3px; width: 88px; height: 31px;"
-                 src="images/css_validator_badges-vcss-blue.jpg"
-                 alt="Valid CSS!"/>
-             </a>~
-
-               </small>
-             </p>
-           </footer>
-         </p>
+          <small> <a href="index.html">HOME</a></small>
+        </p>
+        <p>
+          <small
+            >&copy; 2022 by Abel Mengstu All Rights Reserved | ,<a
+              href="disclaimer.html"
+            >
+              Disclaimer / Privacy Notice</a
+            >
+            ,<a id="html-checker" href="#"
+              ><img
+                style="border: 3px; width: 88px; height: 31px;"
+                src="images/html5_validator_badges.jpg"
+                alt="Valid HTML!"
+            /></a>
+            |
+            <a id="css-checker" href="#"
+              ><img
+                style="border: 3px; width: 88px; height: 31px;"
+                src="images/css_validator_badges-vcss-blue.jpg"
+                alt="Valid CSS!"
+              /> </a
+            >~
+          </small>
+        </p>
       </footer>
     </div>
     <script>
-     //https://tinyurl.com/dynamic-html-checker
-     document
-       .getElementById("html-checker")
-       .setAttribute(
-         "href",
-         "https://validator.w3.org/nu/?doc=" + location.href
-       );
+      //https://tinyurl.com/dynamic-html-checker
+      document
+        .getElementById("html-checker")
+        .setAttribute(
+          "href",
+          "https://validator.w3.org/nu/?doc=" + location.href
+        );
 
-     document
-       .getElementById("css-checker")
-       .setAttribute(
-         "href",
-         "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
-       );
+      document
+        .getElementById("css-checker")
+        .setAttribute(
+          "href",
+          "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
+        );
 
-     //manages mobile nav
-     function myFunction() {
-       var x = document.getElementById("myTopnav");
-       if (x.className === "topnav") {
-         x.className += " responsive";
-       } else {
-         x.className = "topnav";
-       }
-     }
-   </script>
+      //manages mobile nav
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>
