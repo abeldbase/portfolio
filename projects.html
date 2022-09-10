@@ -23,13 +23,16 @@
         <a href="contact.html" target="_blank">CONTACT ABEL</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"
           >&#9776;</a
+        >
       </nav>
     </header>
     <div class="wrapper">
-    <img
-      src="images/seattle-bridge-on-lake-union.JPG"
-      alt="Photo of lake union bridge in Seattle"
-    />
+      <h2 class="h2" id="current-page"><a>PROJECT</a></h2>
+
+      <img
+        src="images/seattle-bridge-on-lake-union.JPG"
+        alt="Photo of lake union bridge in Seattle"
+      />
 
       <section>
         <h2 class="subheader">Web Development Services</h2>
@@ -38,11 +41,7 @@
           <aside>
             <ul class="container" id="project">
               <li>
-                <a
-                  href="home.html"
-                  target="_blank"
-                  >Telework for development</a
-                >
+                <a href="home.html" target="_blank">Telework for development</a>
               </li>
               <li>Accesability and web development</li>
               <li>Remodeling website desigen</li>
@@ -51,61 +50,61 @@
           </aside>
         </article>
       </section>
+
       <footer>
         <p>
-           <footer>
-             <p>
-               <small> <a href="index.html">HOME</a></small>
-             </p>
-             <p>
-               <small
-                 >&copy; 2022 by Abel Mengstu
-                  All Rights Reserved
-                 | ,<a href="disclaimer.html"> Disclaimer / Privacy Notice</a> ,<a
-                   id="html-checker"
-                   href="#"
-                   ><img
-                   style="border: 3px; width: 88px; height: 31px;"
-                   src="images/html5_validator_badges.jpg"
-                   alt="Valid HTML!"
-               /></a>
-                 | <a id="css-checker" href="#"><img
-                 style="border: 3px; width: 88px; height: 31px;"
-                 src="images/css_validator_badges-vcss-blue.jpg"
-                 alt="Valid CSS!"/>
-             </a>~
-
-               </small>
-             </p>
-           </footer>
-         </p>
+          <small> <a href="index.html">HOME</a></small>
+        </p>
+        <p>
+          <small
+            >&copy; 2022 by Abel Mengstu All Rights Reserved | ,<a
+              href="disclaimer.html"
+            >
+              Disclaimer / Privacy Notice</a
+            >
+            ,<a id="html-checker" href="#"
+              ><img
+                style="border: 3px; width: 88px; height: 31px;"
+                src="images/html5_validator_badges.jpg"
+                alt="Valid HTML!"
+            /></a>
+            |
+            <a id="css-checker" href="#"
+              ><img
+                style="border: 3px; width: 88px; height: 31px;"
+                src="images/css_validator_badges-vcss-blue.jpg"
+                alt="Valid CSS!"
+              /> </a
+            >~
+          </small>
+        </p>
       </footer>
     </div>
     <script>
-     //https://tinyurl.com/dynamic-html-checker
-     document
-       .getElementById("html-checker")
-       .setAttribute(
-         "href",
-         "https://validator.w3.org/nu/?doc=" + location.href
-       );
+      //https://tinyurl.com/dynamic-html-checker
+      document
+        .getElementById("html-checker")
+        .setAttribute(
+          "href",
+          "https://validator.w3.org/nu/?doc=" + location.href
+        );
 
-     document
-       .getElementById("css-checker")
-       .setAttribute(
-         "href",
-         "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
-       );
+      document
+        .getElementById("css-checker")
+        .setAttribute(
+          "href",
+          "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
+        );
 
-     //manages mobile nav
-     function myFunction() {
-       var x = document.getElementById("myTopnav");
-       if (x.className === "topnav") {
-         x.className += " responsive";
-       } else {
-         x.className = "topnav";
-       }
-     }
+      //manages mobile nav
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
     </script>
   </body>
 </html>
