@@ -25,7 +25,7 @@ header > h1 {
     transition-property:all;
 }
 .h2 :hover{
-    font-size: x-large;
+    font-size:x-large;
     color: rgb(243, 239, 12);
     background-color: rgb(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -33,11 +33,43 @@ header > h1 {
     transition-property:all;
    
 }
+#current-page :hover{
+    font-size:200%;
+    color: rgb(12, 243, 77);
+    background-color: rgb(177, 18, 18);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: 2s;
+    transition-property:all;
+   
+}
+.h3 :hover {
+    font-size: 150%;
+    color: rgb(66, 243, 12);
+    background-color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: 2s;
+    transition-property:all; 
+}
+small :hover {
+    font-size: 150%;
+    color: rgb(66, 243, 12);
+    background-color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-property: all; 
+    transition-duration: 3s;
+}
 
 nav a:nth-child(even){
     color: rgb(237, 226, 20);
 }
 
+.desktop:hover{
+background-color: #FFCCCC;
+
+transition-property: all; 
+transform: rotate(360deg);
+transition-duration: 3s;
+}
 video{
     width: 370px;
   }
@@ -60,7 +92,7 @@ video{
 
 .topnav a.hover, .active {
     background-color: darkcyan;
-   
+    color: rgb(45, 221, 33);
     
 }
 
