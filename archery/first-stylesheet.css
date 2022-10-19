@@ -3,6 +3,7 @@
     --main-radius:5px;
     --main-padding:5px;
     background: rgb(245, 245, 245);
+    color: #000;
 }
 /*top nav */
 .topnav a {
@@ -30,7 +31,7 @@
 }
 .logobox a:hover {
     background-color: #03a3df;
-    color: #ecb722;
+    color: #rgb(0, 0, 0);
     transition:2s;
   
 }
@@ -57,7 +58,7 @@
     font-weight: bold;
     text-transform: uppercase;
     font-size: 17px;
-    color: #ecb722;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 h1{
@@ -104,10 +105,22 @@ main{
     text-align:justify;
     text-indent: 4%;
 }
+.maincontent2{
+    font-family:'Lucida Sans Regular', sans-serif;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    text-transform: none;
+    text-align:justify;
+    text-indent: 4%;
+}
+
+
+
 #address{
     font-family:'Lucida Sans Regular', sans-serif;
     font-size: 14px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 700;
     text-transform: none;
 }
@@ -129,6 +142,9 @@ aside{
     margin-top: 110px;
    
 }
+.aside1{
+    color: black;
+}
 
 .whatsapp{
     color:#07df03;
@@ -137,18 +153,21 @@ aside{
 }
 #content1{
     background: #444444;
+    color: whitesmoke;
     grid-area: content1;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
 #content2{
     background: #444444;
+    color: whitesmoke;
     grid-area: content2;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
 #content3{
     background: #444444;
+    color: whitesmoke;
     grid-area: content3;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -164,7 +183,7 @@ a:hover {
     color: whitesmoke;
     background-color: #444444;
     text-decoration:double;
-    color: #ecb722;
+    color: rgb(236, 224, 34);
 }
 
 #content1 :hover{
@@ -275,7 +294,7 @@ a:hover {
 
 ::selection {
     color: #000; 
-    background: #ff0;
+    background: rgb(236, 224, 34);
 }
 /*footer {
     position: relative;
@@ -304,7 +323,7 @@ footer .footerpad li, footer .menu li{
 }
 footer .footerpad li a{
     font-size: 2em;
-    color: #ecb722;
+    color: rgb(236, 224, 34);
     margin: 0 10px;
     display: inline-block;
     transition: 1s;
@@ -315,7 +334,7 @@ footer .footerpad li a:hover{
 }
 footer .menu li a{
     font-size: 1.2em;
-    color: #ecb722;
+    color: rgb(236, 224, 34);
     margin: 0 10px;
     display: inline-block;
     text-decoration: none;
@@ -325,7 +344,7 @@ footer .menu li a:hover{
     opacity: 1;
 }
 footer p{
-    color: #ecb722;
+    color: rgb(236, 224, 34);
     text-align: center;
     margin-top: 15px;
     margin-bottom: 100px;
